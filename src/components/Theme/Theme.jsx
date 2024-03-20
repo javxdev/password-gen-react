@@ -21,7 +21,7 @@ function ThemeBtn() {
     }
 
   return (
-    <button onClick={handleTheme} className="flex justify-end items-center bg-transparent text-4xl pointer">
+    <button onClick={handleTheme} className="flex justify-end items-center bg-transparent text-4xl">
     {theme === "light" ? (
       <i className="bx bx-moon text-black"></i>
     ) : (
