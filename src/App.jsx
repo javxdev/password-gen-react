@@ -1,3 +1,4 @@
+import LinkGithub from "./components/LinkGithub/LinkGithub"
 import ThemeBtn from "./components/Theme/Theme"
 import SettingsUl from "./components/Ul/Ul"
 
@@ -5,6 +6,7 @@ function App() {
 
   return (
   <div className="flex flex-col justify-center min-h-dvh px-3 gap-10 md:gap-10 dark:text-neutral-200">
+      <LinkGithub/>
       <ThemeBtn/>
       <div className="flex justify-between items-center md:min-w-[30rem] bg-neutral-200 rounded-md p-2">
         <input className="min-w-[90%] outline-none border-none bg-transparent text-xl py-1 text-black" type="text" placeholder="Password" id="userOutput"/>
